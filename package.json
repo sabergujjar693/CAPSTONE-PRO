@@ -1,0 +1,19 @@
+{
+  "name": "deadline-tracker-backend",
+  "version": "1.0.0",
+  "description": "Deadline Tracker - Student Assignment Deadline Tracker (HS3052 Capstone Project, Group 02)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "nodemailer": "^7.0.6",
+    "web-push": "^3.6.7"
+  }
+}
